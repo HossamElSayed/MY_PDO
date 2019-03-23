@@ -1,0 +1,100 @@
+
+ *{
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: none;
+     line-height:1.2 ;
+     font-size: 1em;
+ }
+ div.wrraber {
+     overflow: hidden;
+ }
+ div.wrraber div.teach_form{
+     float: left;
+ }
+ div.wrraber div.teacher{
+     float: right;
+ }
+.app_form{
+    width: 500px;
+    margin: 20px 50px 0px 20px;
+    padding: 10px;
+}
+form.app_form fieldset{
+    padding: 10px;
+    background: #f1f1f1;
+    border: solid 1px #e4e4e4;
+}
+form.app_form fieldset legend{
+    background: #e4e4e4;
+    padding: 5px;
+    color: #666666;
+    font: 1em 'Arial,Helvetica,sans-serif ';
+}
+ form.app_form fieldset p.msg{
+     background: green;
+     color: #f1f1f1;
+     border-radius: 5px;
+     padding: 5px;
+     text-align: center;
+     width: 429px;
+     cursor: pointer;
+ }
+ form.app_form fieldset p.msg.error{
+     background:#900;
+ }
+form.app_form table{
+    width: 100%;
+}
+form.app_form table tr td input[type=text],input[type=password],input[type=number]
+
+{
+    width: 97%;
+    padding: 2%;
+}
+form.app_form table tr td input[type=submit]
+{
+    padding: 8px;
+    border-radius:3px ;
+    background: green;
+    font-family: Arial;
+    font-size: 0.85em;
+    margin: auto;
+}
+form.app_form table tr td{
+    padding: 10px;
+}
+form.app_form label{
+    font-family: Arial;
+    font-size: 0.85em;
+    color: #666666;
+}
+div.wrraber div.teacher table{
+    width: 600px;
+    margin: 20px;
+    border-collapse: collapse;
+
+}
+ div.wrraber div.teacher table thead th{
+     text-align: left;
+     background: lightskyblue;
+     padding: 10px;
+     border-right:solid 2px #f1f1f1;
+     border-bottom:solid 2px #e4e4e4;
+     font:bold .9em Arial;
+
+ }
+ div.wrraber div.teacher table thead th:last-of-type{
+     border-right: none;
+ }
+ div.wrraber div.teacher table tbody td{
+     text-align: left;
+     padding: 10px;
+     border:solid 2px #e4e4e4;
+     font:bold .8em Arial;
+
+ }
+ div.wrraber div.teacher table tbody tr:nth-child(2n) td{
+     background: #f1f1f1;
+ }
